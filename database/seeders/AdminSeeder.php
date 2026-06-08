@@ -12,7 +12,7 @@ class AdminSeeder extends Seeder
     public function run(): void
     {
         // Clear existing users to avoid duplicate email constraint issues
-        User::truncate();
+        // User::truncate();
 
         User::create([
             'name' => 'Admin GymYakarta',
